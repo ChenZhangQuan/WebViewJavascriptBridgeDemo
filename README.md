@@ -1,7 +1,7 @@
 # WebViewJavascriptBridgeDemo
 这是个基于webView的图文混排demo，使用了WebViewJavascriptBridge第三方框架
 该demo除了能够实现图文混排，还实现了webView和原生的交互。（总之实现了java和oc的深度交互）
-
+参考了http://www.cocoachina.com/ios/20150811/12985.html 的博文
 ##工程原理解释
 ###网页下载 
  
