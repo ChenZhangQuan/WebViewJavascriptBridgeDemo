@@ -20,4 +20,4 @@
 
 ###效果演示
 
-![](https://github.com/ChenZhangQuan/example.gif) 
+![](https://github.com/ChenZhangQuan/WebViewJavascriptBridgeDemo/example.gif) 
