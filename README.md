@@ -17,3 +17,7 @@
 1. 在onload方法里给img加一个onclick的事件。
 2. 在实现onclick方法，在图片被点击的时候，js端将图片所在web的坐标，以及当前是第几张图片调用oc端的imageDidClicked方法。
 3. oc端在拿到信息后进行图片的放大缩小
+
+###效果演示
+
+![](https://github.com/ChenZhangQuan/example.gif) 
