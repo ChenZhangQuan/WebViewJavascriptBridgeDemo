@@ -29,24 +29,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    if (_bridge) { return; }
-//    //http://c.3g.163.com/nc/article/BHS48NLT0001124J/full.html
-//    UIWebView* webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
-//    [self.view addSubview:webView];
-//
-//    [WebViewJavascriptBridge enableLogging];
-//    
-//    _bridge = [WebViewJavascriptBridge bridgeForWebView:webView];
-//    
-//    [_bridge registerHandler:@"testObjcCallback" handler:^(id data, WVJBResponseCallback responseCallback) {
-//        NSLog(@"testObjcCallback called: %@", data);
-//        responseCallback(@"Response from testObjcCallback");
-//    }];
-//    
-//    [_bridge callHandler:@"testJavascriptHandler" data:@{ @"foo":@"before ready" }];
-    
-
-    
     // 2.创建一个webView，显示网页
     UIWebView *webView = [[UIWebView alloc] init];
     webView.frame = self.view.bounds;
